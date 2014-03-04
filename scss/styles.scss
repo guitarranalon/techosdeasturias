@@ -488,6 +488,7 @@ table tbody tr:hover{
 			top:221px;
 			
 			@include retinize('menu', 'png', 40px, 40px);
+			@include border-radius(0);
 			
 			&:hover{
 				cursor:pointer;

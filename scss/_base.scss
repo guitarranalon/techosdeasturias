@@ -1,0 +1,98 @@
+$colorTema:#EE6C46;
+$sombraTema:mix(#000, $colorTema, 10%);
+$colorTemaOscuro:#4F2417;
+$colorTemaLight:adjust-color($colorTema, $lightness:30%, $saturation:-30%);
+$fondoMenuMovil:#6b311f;
+
+$fontSizeBasico:18;
+$lineHeightBasico:27 / 18;
+$fontFamily:'opensans_regular', Helvetica, Arial, sans-serif;
+$altFontFamily:'opensans_condensed_light', Helvetica, Arial, sans-serif;
+
+$fontSizeMovil:16;
+
+$anchoRow:900;
+
+$img-root:'../img';
+
+// Pico
+%pico {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: bottom;
+  border-top:  0 dotted ;
+  border-right: 50px solid transparent;
+  border-left:  50px solid transparent;
+  border-bottom: 8px solid #000;
+}
+
+@mixin font-size($pixels: $fontSizeBasico){
+	font-size:$pixels*1px;
+	font-size:$pixels/$fontSizeBasico*1rem;
+}
+
+// Fuentes-------------------------
+
+//Open Sans Regular
+@font-face {
+    font-family: 'opensans_regular';
+    src: url('../fonts/opensans-regular/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+//Open Sans Condensed Light
+@font-face {
+    font-family: 'opensans_condensed_light';
+    src: url('../fonts/opensans-condensedlight/opensans-condlight-webfont.eot');
+    src: url('../fonts/opensans-condensedlight/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-condensedlight/opensans-condlight-webfont.woff') format('woff'),
+         url('../fonts/opensans-condensedlight/opensans-condlight-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-condensedlight/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@mixin animation-name($name){
+	-webkit-animation-name:$name;
+	-moz-animation-name:$name;
+	animation-name:$name;
+}
+
+@mixin animation-duration($duration){
+	-webkit-animation-duration:$duration;
+	-moz-animation-duration:$duration;
+	animation-duration:$duration;
+}
+
+
+/* Retinize de Dan Cederholm */
+$is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 1.5),(min-resolution: 1.5dppx)";
+
+@mixin retinize($file, $type, $width, $height) {
+  background-image: url($img-root + '/' + $file + '.' + $type);
+ 
+  @media #{$is-hidpi} {
+    & {
+      background-image: url($img-root + '/' + $file + '-2x.' + $type);
+      @include background-size($width $height);
+    }
+  }
+}
+
+
+@mixin imageReplacement{
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

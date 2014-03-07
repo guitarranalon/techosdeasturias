@@ -43,6 +43,7 @@ ul li{
 .unanimated h1,
 .unanimated #header .logo,
 .unanimated #header .row .nav{
+	opacity:0;
 	@include animation-name(none);
 }
 
@@ -389,7 +390,7 @@ table tbody tr:hover{
 	0%{
 		transform: translateY(-15em);
 	}
-	
+
 	15%{
 		transform: translateY(-1.62em);	
 	}

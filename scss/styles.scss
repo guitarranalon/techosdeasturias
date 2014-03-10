@@ -237,6 +237,10 @@ table tbody tr:hover{
 	bottom:0;
 }
 
+#social .share{
+	@include btn;
+}
+
 #visorGrafica{
 	width:100%;
 	overflow:auto;

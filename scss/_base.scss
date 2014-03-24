@@ -96,3 +96,11 @@ $is-hidpi: "(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio:
   background-color: transparent;
   border: 0;
 }
+
+%clearfixAfter{
+	content:".";
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0;
+}

@@ -237,8 +237,16 @@ table tbody tr:hover{
 	bottom:0;
 }
 
+#social:after{
+	@extend %clearfixAfter;
+}
+
 #social .share{
 	@include btn;
+}
+
+#social .hideshare-wrap{
+	float:right;
 }
 
 #visorGrafica{

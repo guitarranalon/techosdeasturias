@@ -63,6 +63,10 @@
 						</div>
 					</div>		
 			  </div>
+			  
+			  <div id="social">
+				<a class="share" href="#" title="Compartir en las redes sociales">Compartir</a>
+			  </div>
 		  </div>
 	  </div>
 	  <div id="estadisticas" class="section">
@@ -134,12 +138,12 @@
 		</div>
 	  </div>
 	  
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>	  
-		<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
 		<script type="text/javascript" src="js/handlebars.min.js">		
 		</script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/hideshare.min.js"></script>
 		<script src="js/TechosModule.min.js"></script>	  
 	  
 		<script id="tabla-template" type="text/x-handlebars-template">
@@ -366,9 +370,16 @@
 			TechosModule.asignaDificultades();
 			$('table').delegate('td', 'click', TechosModule.clickFila);			
 			$(window).load(TechosModule.startHeaderAnimation);
-		</script>
-		<script>
-			window.onload = TechosModule.loadMapScript;		
+			window.onload = TechosModule.loadMapScript;	
+			
+			$(".share").hideshare({
+				link: "http://guitarranalon.github.io/techosdeasturias",
+				media: "http://guitarranalon.github.io/techosdeasturias/img/logo.png",
+				title: "Mis techos de Asturias",
+				description: "Comprueba tus avances en el reto de los Techos de Asturias. Tanto si estás empezando como si ya te faltan pocos ¡completa tu información!",
+				position: "top",
+				linkedin: false			
+			});		
 		</script>
 	</body>
 </html>

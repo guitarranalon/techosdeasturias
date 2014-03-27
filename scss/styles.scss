@@ -249,6 +249,11 @@ table tbody tr:hover{
 	float:right;
 }
 
+#social .hideshare-list{
+	width:165px !important; // Para sobreescribir el estilo de javascript
+	left:-34px !important; // Ídem
+}
+
 #visorGrafica{
 	width:100%;
 	overflow:auto;

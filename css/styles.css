@@ -2774,12 +2774,18 @@ table tbody tr:hover {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003252}}
+#social .hideshare-list {
+  width: 165px !important;
+  left: -34px !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003257}}
 #visorGrafica {
   width: 100%;
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003262}}
 #grafica {
   position: relative;
   width: 100%;
@@ -2788,27 +2794,27 @@ table tbody tr:hover {
   background: #e9e9e9;
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003270}}
 #grafica li {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003268}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003273}}
 #grafica li:hover .info {
   background: rgba(255, 255, 255, 0.9);
   z-index: 80;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003278}}
 #grafica li:hover .pico1 {
   border-color: transparent transparent #ca5b3b !important;
   z-index: 80;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003283}}
 #grafica li:hover .pico2 {
   border-color: transparent transparent #b55235 !important;
   z-index: 80;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003290}}
 #grafica .pico1 {
   position: absolute;
   bottom: 0;
@@ -2818,7 +2824,7 @@ table tbody tr:hover {
   border-color: transparent transparent #ee6c46;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003301}}
 #grafica .pico2 {
   position: absolute;
   bottom: 0;
@@ -2827,7 +2833,7 @@ table tbody tr:hover {
   border-color: transparent transparent #d6613f;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003311}}
 #grafica .info {
   position: absolute;
   margin-left: 17px;
@@ -2843,7 +2849,7 @@ table tbody tr:hover {
   transform: translate(0, -5px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003323}}
 #footer {
   background: #edebea;
   color: #4f2417;
@@ -2853,7 +2859,7 @@ table tbody tr:hover {
   font-size: 0.77778rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003332}}
 .creativeCommons {
   border: 2px solid #777777;
   color: #777;
@@ -2868,141 +2874,141 @@ table tbody tr:hover {
   -o-border-radius: 30px;
   border-radius: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003343}}
 .creativeCommons:hover {
   color: #444;
   border-color: #444;
 }
 
 @-webkit-keyframes anim-logo {
-  /* line 345, ../scss/styles.scss */
+  /* line 350, ../scss/styles.scss */
   0% {
     -webkit-transform: translateY(-15em);
   }
 
-  /* line 349, ../scss/styles.scss */
+  /* line 354, ../scss/styles.scss */
   15% {
     -webkit-transform: translateY(-1.62em);
   }
 
-  /* line 353, ../scss/styles.scss */
+  /* line 358, ../scss/styles.scss */
   30% {
     -webkit-transform: translateY(0);
   }
 
-  /* line 357, ../scss/styles.scss */
+  /* line 362, ../scss/styles.scss */
   45% {
     -webkit-transform: translateY(-0.98em);
   }
 
-  /* line 361, ../scss/styles.scss */
+  /* line 366, ../scss/styles.scss */
   60% {
     -webkit-transform: translateY(0);
   }
 
-  /* line 365, ../scss/styles.scss */
+  /* line 370, ../scss/styles.scss */
   75% {
     -webkit-transform: translateY(-0.32em);
   }
 
-  /* line 369, ../scss/styles.scss */
+  /* line 374, ../scss/styles.scss */
   100% {
     -webkit-transform: translateY(0);
   }
 }
 
 @-moz-keyframes anim-logo {
-  /* line 375, ../scss/styles.scss */
+  /* line 380, ../scss/styles.scss */
   0% {
     -moz-transform: translateY(-15em);
   }
 
-  /* line 379, ../scss/styles.scss */
+  /* line 384, ../scss/styles.scss */
   15% {
     -moz-transform: translateY(-1.62em);
   }
 
-  /* line 383, ../scss/styles.scss */
+  /* line 388, ../scss/styles.scss */
   30% {
     -moz-transform: translateY(0);
   }
 
-  /* line 387, ../scss/styles.scss */
+  /* line 392, ../scss/styles.scss */
   45% {
     -moz-transform: translateY(-0.98em);
   }
 
-  /* line 391, ../scss/styles.scss */
+  /* line 396, ../scss/styles.scss */
   60% {
     -moz-transform: translateY(0);
   }
 
-  /* line 395, ../scss/styles.scss */
+  /* line 400, ../scss/styles.scss */
   75% {
     -moz-transform: translateY(-0.32em);
   }
 
-  /* line 399, ../scss/styles.scss */
+  /* line 404, ../scss/styles.scss */
   100% {
     -moz-transform: translateY(0);
   }
 }
 
 @keyframes anim-logo {
-  /* line 405, ../scss/styles.scss */
+  /* line 410, ../scss/styles.scss */
   0% {
     transform: translateY(-15em);
   }
 
-  /* line 409, ../scss/styles.scss */
+  /* line 414, ../scss/styles.scss */
   15% {
     transform: translateY(-1.62em);
   }
 
-  /* line 413, ../scss/styles.scss */
+  /* line 418, ../scss/styles.scss */
   30% {
     transform: translateY(0);
   }
 
-  /* line 417, ../scss/styles.scss */
+  /* line 422, ../scss/styles.scss */
   45% {
     transform: translateY(-0.98em);
   }
 
-  /* line 421, ../scss/styles.scss */
+  /* line 426, ../scss/styles.scss */
   60% {
     transform: translateY(0);
   }
 
-  /* line 425, ../scss/styles.scss */
+  /* line 430, ../scss/styles.scss */
   75% {
     transform: translateY(-0.32em);
   }
 
-  /* line 429, ../scss/styles.scss */
+  /* line 434, ../scss/styles.scss */
   100% {
     transform: translateY(0);
   }
 }
 
 @media only screen and (max-width: 990px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003435}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003440}}
   html {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003439}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003444}}
   body {
     font-size: 16px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003448}}
   .row {
     width: auto;
     margin: 0 2em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003455}}
   h1,
   #header .logo,
   #header .row .nav {
@@ -3011,49 +3017,49 @@ table tbody tr:hover {
     animation-name: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003454}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003459}}
   h1 {
     padding: 1.55em 0 0.75em 5.25em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003461}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003466}}
   table tr td,
   table tr th {
     vertical-align: top;
   }
 }
 @media only screen and (max-width: 990px) and (max-width: 900px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003471}}
   h1 {
     margin: 0 0.8em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003477}}
   #header .row {
     text-align: center;
     padding: 1em 0 0;
     margin: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003484}}
   #header .row .logo,
   #header .row .nav {
     position: static;
     margin: 0 auto;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003484}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003489}}
   #header ul li + li:before {
     content: "";
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003493}}
   #header .menuButtonWrapper {
     margin: 0 2em;
     text-align: right;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003498}}
   #header button {
     font: 0/0 a;
     color: transparent;
@@ -3075,21 +3081,21 @@ table tbody tr:hover {
     -o-border-radius: 0;
     border-radius: 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003509}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003514}}
   #header button:hover {
     cursor: pointer;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003514}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003519}}
   #main-nav {
     height: 0;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003519}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003524}}
   #header .row .nav li {
     display: block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003528}}
   #header .row .nav li a {
     display: block;
     background: #6b311f;
@@ -3097,14 +3103,14 @@ table tbody tr:hover {
     padding: 0.5em 1.25em;
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003530}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003535}}
   #header .row .nav li a:hover {
     text-decoration: none;
     background: #d05531;
     color: #6b311f;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003538}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003543}}
   h1 {
     padding: 0.5em 0;
     line-height: 1.1em;
@@ -3121,30 +3127,30 @@ table tbody tr:hover {
   }
 }
 @media only screen and (max-width: 990px) and (max-width: 570px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003546}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003551}}
   table tr td,
   table tr th {
     padding: 0.77778em 0.55556em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003549}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003554}}
   table tr td:nth-child(3n),
   table tr th:nth-child(3n) {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003554}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003559}}
   .row {
     margin: 0 1.25em;
   }
 }
 @media only screen and (max-width: 990px) and (max-width: 400px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003561}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003566}}
   table tr td,
   table tr th {
     padding: 0.77778em 0.27778em;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003570}}
   table th:nth-child(4) {
     display: block;
     width: 2em;
@@ -3153,7 +3159,7 @@ table tbody tr:hover {
     text-overflow: ellipsis;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003573}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/rober\/Documents\/GitHub\/techosdeasturias\/scss\/styles\.scss}line{font-family:\00003578}}
   .row {
     width: auto;
     margin: 0 1em;

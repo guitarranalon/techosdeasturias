@@ -361,6 +361,9 @@
 ,
 { concejo:"Yernes y Tameza", pico:"Peña Cruzada", altura:1374, dificultad:1, latitud:43.2167583, longitud:-6.1447138}
 ]};
+
+			$(window).load(TechosModule.startHeaderAnimation);
+			window.onload = TechosModule.loadMapScript;		
 	
 			TechosModule.init(data);
 			var resultTabla = templateTabla(data),
@@ -370,8 +373,6 @@
 	
 			TechosModule.asignaDificultades();
 			$('table').delegate('td', 'click', TechosModule.clickFila);			
-			$(window).load(TechosModule.startHeaderAnimation);
-			window.onload = TechosModule.loadMapScript;	
 			
 			$(".share").hideshare({
 				link: "http://guitarranalon.github.io/techosdeasturias",

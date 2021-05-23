@@ -5,19 +5,12 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="author" content="Roberto Cancio González" />
 	<meta content="montaña, mountain, Asturias, techos, roof" name="keywords" />
-	<meta name="description" content="Comprueba tus progresos en el reto de los techos de Asturias" />
+	<meta name="description" content="Comprueba tus progresos en el reto de los techos de Asturias">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<link href="img/favicon.ico" rel="Shortcut Icon" />
 	</head>
 	<body class="unanimated">
-		<script>
-			var result = confirm('¿Prefieres ir a la nueva versión, con más información y funcionalidad?');
-			
-			if (result) {
-				window.location.replace('https://guitarranalon.github.io/MisTechosAsturias2/');
-			}
-		</script>
 		<div id="header">
 			<div class="row">
 				<div class="logo">
@@ -40,10 +33,12 @@
 		<div id="mapa" class="section">
 			<div id="map-canvas">
 			</div>
-			<div class="download">
-				<div class="row">
-					<a href="files/techosAsturias.kml" title="Descargar el fichero kml con las coordenadas de los picos">Descargar coordenadas (.kml)</a>
-				</div>
+		</div>
+		<div class="nueva-version">
+			<div class="row">
+				<h2>¡Nueva App!</h2>
+				<p>Guarda tus avances, con más información y más práctica. Aviso: el nuevo mapa de progreso engancha 😉</p>
+				<a href="https://guitarranalon.github.io/MisTechosAsturias2/" title="Acceder a la nueva aplicación de los Techos de Asturias">Abrir la app</a>
 			</div>
 		</div>
 		<div id="tabla" class="section">
@@ -52,7 +47,11 @@
 				<form method="post" >
 				</form>
 				
-				
+				<div class="download">
+					<div class="row">
+						<a href="files/techosAsturias.kml" title="Descargar el fichero kml con las coordenadas de los picos">Descargar coordenadas (.kml)</a>
+					</div>
+				</div>
 				
 				<div id="resultado">
 					<p class="progressTag">Progreso</p>

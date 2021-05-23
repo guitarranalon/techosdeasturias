@@ -155,7 +155,7 @@ h2{
 	@include font-size(16);
 }
 
-#mapa .download a{
+#tabla .download a {
 	@include btn;
 
 	padding-left:2.3em;
@@ -172,6 +172,25 @@ h2{
 		
 		@include retinize('download2','png',18px,18px);		
 	}
+}
+
+.nueva-version a {
+	@include btn;
+
+	display: block;
+	font-size: 24px;
+}
+
+.nueva-version {
+    background: #f8ff8c;
+	bottom: 0;
+	box-shadow: 0 0 6px rgba(#000, 0.25);
+    left: 0;
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+	right: 0;
+    z-index: 1;	
 }
 
 table{
@@ -252,7 +271,7 @@ table tbody tr:hover{
 
 #social .hideshare-list{
 	width:165px !important; // Para sobreescribir el estilo de javascript
-	left:-34px !important; // Ídem
+	left:-34px !important; // ï¿½dem
 }
 
 #visorGrafica{
